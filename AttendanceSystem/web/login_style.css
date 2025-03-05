@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgimg{
+    background-image: url(background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heads{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding:1rem;
+    color:whitesmoke;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 2px;
+}
+
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    width: 40%;
+    padding:2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(245, 245, 245, 0.75);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 20px;
+}
+
+body,html{
+    height:100%;
+}
+
+input:focus{
+    outline:none;
+}
+
+.log input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin: 8px 0;
+    display: inline-block   ;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.log input[type=submit]{
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-color: #555;
+    border-radius: 25px;
+}
+
+.log input[type=submit]:hover{
+    background-color:white;
+    color:black;
+}
+
+.log input::placeholder{
+    text-align: center;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(15, 33, 196, 0.575);
+}
+
+@media screen and (max-width: 780px){
+    .log{
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .log{
+        width:70%;
+    }
+}
+@media screen and (max-width: 450px){
+    .log{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .log{
+        width:90%;
+    }
+}
